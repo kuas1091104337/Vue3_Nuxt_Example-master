@@ -1,5 +1,5 @@
 <script>
-export default {
+export default { 
   async asyncData({ $axios, $DemoTest }) {
     // const res = await $axios.get(
     //   "https://vue-lessons-api.herokuapp.com/photo/list"

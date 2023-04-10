@@ -4,7 +4,7 @@ export default {
   async asyncData(context) {
     const pageDetal = { data: {} };
     let isError = false;
-    try {
+    try { 
       const res = await axios.get(
         `https://vue-lessons-api.herokuapp.com/courses/${context.params.id}`
       );

@@ -5,7 +5,6 @@ export default {
     const res = await axios.get(
       "https://vue-lessons-api.herokuapp.com/courses/list"
     );
-
     return { courses: res.data };
   },
   methods: {

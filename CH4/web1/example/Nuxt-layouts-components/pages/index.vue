@@ -6,7 +6,7 @@ export default {
       "https://vue-lessons-api.herokuapp.com/photo/list"
     );
     return { res: res.data };
-  },
+  }, 
   async fetch() {
     this.name = "Jacky";
     this.arr = await axios
